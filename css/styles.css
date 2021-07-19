@@ -2,12 +2,20 @@ h1 {
   background-color: #2f303a;
   color: #ffff;
   height: 600px;
-  text-align: center;
+}
+
+.portfolio img {
+  height: 294px;
+  width: 370px;
 }
 
 footer {
   background-color: #2f303a;
   color: #ffff;
+}
+
+wrapper {
+  display: inline;
 }
 
 span {
