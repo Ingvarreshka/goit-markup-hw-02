@@ -5,6 +5,15 @@ h1 {
   text-align: center;
 }
 
+footer {
+  background-color: #2f303a;
+  color: #ffff;
+}
+
+span {
+  color: blue;
+}
+
 nav {
   background-color: #ececec;
 }
