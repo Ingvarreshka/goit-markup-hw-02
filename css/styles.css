@@ -1,7 +1,45 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  font-size: 14px;
+  color: #ffff;
+}
+
+.head {
+  text-align: center;
+}
+
 h1 {
   background-color: #2f303a;
   color: #ffff;
   height: 600px;
+}
+
+.btn {
+  background: #2196f3;
+  color: #ffff;
+  display: block;
+  width: 200px;
+  height: 50px;
+}
+
+.block {
+  color: black;
+}
+
+.info {
+  display: flex;
+}
+
+.about-us {
+  text-align: center;
+  color: black;
+}
+
+.team {
+  background-color: #f5f4fa;
+  text-align: center;
+  color: black;
 }
 
 .portfolio img {
@@ -12,16 +50,4 @@ h1 {
 footer {
   background-color: #2f303a;
   color: #ffff;
-}
-
-wrapper {
-  display: inline;
-}
-
-span {
-  color: blue;
-}
-
-nav {
-  background-color: #ececec;
 }
