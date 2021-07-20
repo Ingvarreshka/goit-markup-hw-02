@@ -5,6 +5,22 @@ body {
   color: #ffff;
 }
 
+.logo-up {
+  font-family: "Raleway", sans-serif;
+  color: #2196f3;
+}
+.logo-down {
+  font-family: "Raleway", sans-serif;
+  color: #2196f3;
+}
+
+span {
+  color: black;
+}
+.logo-down span {
+  color: #ffff;
+}
+
 .head {
   text-align: center;
 }
