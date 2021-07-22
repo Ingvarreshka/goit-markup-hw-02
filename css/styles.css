@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: auto;
   font-size: 14px;
-  color: #ffff;
+  /* color: #ffff; */
 }
 
 a {
@@ -10,20 +10,52 @@ a {
 }
 
 header a {
-  color: black;
+  color: #212121;
+}
+
+header a:hover,
+header a:active {
+  color: #2196f3;
 }
 
 footer a {
   color: #ffff;
 }
 
+.list {
+  list-style: none;
+  font-weight: 500;
+}
+
+.list p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+.list-contacts {
+  font-size: 14px;
+  font-weight: 500;
+  color: #757575;
+}
+.list-contacts:hover,
+.list-contacts:active {
+  color: #2196f3;
+}
+
+.list h3 {
+  font-size: 700;
+}
+
 .logo-up {
   font-family: "Raleway", sans-serif;
   color: #2196f3;
+  font-size: 26px;
 }
 .logo-down {
   font-family: "Raleway", sans-serif;
   color: #2196f3;
+  font-size: 26px;
 }
 
 span {
@@ -34,13 +66,16 @@ span {
 }
 
 .head {
+  background-color: #2f303a;
   text-align: center;
+  font-size: 44px;
+  color: #ffff;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
-h1 {
-  background-color: #2f303a;
-  color: #ffff;
-  height: 600px;
+h2 {
+  color: #212121;
 }
 
 .btn {
@@ -48,6 +83,8 @@ h1 {
   color: #ffff;
   width: 200px;
   height: 50px;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .block {
@@ -56,17 +93,27 @@ h1 {
 
 .info {
   display: flex;
+  color: #2196f3;
+  list-style: none;
+}
+
+.info p {
+  color: #757575;
 }
 
 .about-us {
   text-align: center;
-  color: black;
+  color: #212121;
+  font-size: 36px;
 }
 
 .team {
   background-color: #f5f4fa;
   text-align: center;
-  color: black;
+  color: #212121;
+}
+.team h2 {
+  font-size: 36px;
 }
 
 .portfolio img {
@@ -77,4 +124,14 @@ h1 {
 footer {
   background-color: #2f303a;
   color: #ffff;
+}
+
+.contacts-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.contacts-link:hover {
+  color: #2196f3;
 }
