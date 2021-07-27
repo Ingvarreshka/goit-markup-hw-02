@@ -51,6 +51,7 @@ a {
   border-radius: 4px;
   background-color: var(--background-color-btn);
   color: var(--text-btn);
+  cursor: pointer;
 }
 
 .logo {
@@ -104,6 +105,7 @@ a {
   list-style: none;
   color: var(--text-primary);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .secondary-button:hover {
