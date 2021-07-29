@@ -1,6 +1,6 @@
 :root {
   --background-color-team: #f5f4fa;
-  --background-color-btn: #2196f3;
+  --blue-color: #2196f3;
   --title-color: #ffffff;
   --primary-color: #ffffff;
   --secondary-color: #212121;
@@ -34,7 +34,7 @@ ul {
 }
 .nav-link:hover,
 .current {
-  color: var(--background-color-btn);
+  color: var(--blue-color);
 }
 
 .main-section {
@@ -52,20 +52,20 @@ ul {
   display: inline-block;
   border-radius: 4px;
   border: none;
-  background-color: var(--background-color-btn);
+  background-color: var(--blue-color);
   color: var(--text-btn);
   cursor: pointer;
 }
 
 .logo {
   font-size: 26px;
-  font-weight: 900;
+  font-weight: 700;
   font-family: Raleway;
   color: var(--text-primary);
 }
 
 .logo span {
-  color: var(--background-color-btn);
+  color: var(--blue-color);
 }
 
 .contact-link {
@@ -73,11 +73,10 @@ ul {
 }
 
 .contact-link:hover {
-  color: var(--background-color-btn);
+  color: var(--blue-color);
 }
 
 .title {
-  font-family: roboto 900;
   font-size: 36px;
 }
 
@@ -96,7 +95,7 @@ ul {
 
 .team-position {
   color: var(--text-secondary);
-  font-size: 16;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -115,7 +114,7 @@ ul {
 
 .secondary-button:hover {
   color: var(--title-color);
-  background-color: var(--background-color-btn);
+  background-color: var(--blue-color);
 }
 
 .footer-main {
@@ -124,4 +123,7 @@ ul {
 
 .footer-main a {
   color: var(--title-color);
+}
+address {
+  font-style: normal;
 }
